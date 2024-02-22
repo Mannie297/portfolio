@@ -40,7 +40,7 @@ import prospeaker from "./prospeaker.png";
 import powerco from "./powerco.png";
 import spacey from "./spacey.png";
 import diabetesdata2 from "./diabetesdata2.png"
-import bannerpic from "./bannerpic.png"
+import bannerpic2 from "./bannerpic2.png"
 import jobit from "./jobit.png";
 import hoobank from "./hoobank.png";
 import profile from "./profile.png";
@@ -85,7 +85,7 @@ export {
   prospeaker,
   powerco,
   diabetesdata2,
-  bannerpic,
+  bannerpic2,
   spacey,
   jobit,
   hoobank,

@@ -4,7 +4,7 @@ import { styles } from '../style';
 import { EarthCanvas } from './canvas';
 import { ComputersCanvas } from './canvas';
 import { StarsCanvas} from '../components';
-import {bannerpic, reactjs} from '../assets';
+import {bannerpic2, reactjs} from '../assets';
 
 
 
