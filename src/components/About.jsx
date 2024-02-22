@@ -53,11 +53,11 @@ const About = () => {
         className='mt-4 text-secondary text-[17px] max-w-3xl
         leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        Results-oriented Data Scientist with over 5 years of experience with a strong foundation in machine learning, 
+        statistics, and programming. Proficient in Python, R, and Java, showcasing expertise in utilising powerful 
+        libraries including pandas, scikit-learn, TensorFlow, and Pytorch.Experienced in conducting in-depth research, 
+        developing, experimenting, and deploying advanced analytical models in diverse data science projects. Adept at 
+        data wrangling, visualisation, and translating insights into actionable strategies!
 
       </motion.p>
 

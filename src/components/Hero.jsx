@@ -4,7 +4,7 @@ import { styles } from '../style';
 import { EarthCanvas } from './canvas';
 import { ComputersCanvas } from './canvas';
 import { StarsCanvas} from '../components';
-import {heropictwo, reactjs} from '../assets';
+import {bannerpic, reactjs} from '../assets';
 
 
 
@@ -26,25 +26,16 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915eff]'>Emmanuel</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop 3D visuals, User <br className='sm:block hidden'/> interfaces, and Web Applications.
+            I am a Data Scientist. I help companies analyse and model data <br className='sm:block hidden'/> to make informed business decisions.
+            <br className='sm:block hidden'/> I am a certified Microsoft Data Science Associate.
           </p>
 
         </div>
 
-      </div>    
-      
-      <div className='relative 2xl:w-full h-[110%] hidden sm:flex flex-1 justify-end items-center'>
-        <ComputersCanvas/>
-      </div>
-      
-      
-      <div className='absolute ss:bottom-20 bottom-80 xs:hidden flex justify-center items-center'>
-        <img src={heropictwo} alt='billing' className='w-full h-full relative z-[5]'/>
-      </div>
-            
+      </div>              
 
       
-      <div className='absolute xs:bottom-10 bottom-32 w-full
+      <div className='absolute xs:bottom-30 bottom-32 w-full
       flex justify-center items-center'>
         <a href='#about'>
           <div className='w-[35px] h-[64px] rounded-3xl 
@@ -76,3 +67,16 @@ const Hero = () => {
 }
 
 export default Hero
+
+/*
+
+<div className='relative 2xl:w-full h-[110%] hidden sm:flex flex-1 justify-end items-center'>
+        <ComputersCanvas/>
+        
+      </div>
+
+<div className='absolute Xs:bottom-10 bottom-40 xs:hidden flex justify-center items-center'>
+        <img src={heropictwo} alt='billing' className='w-full h-full relative z-[5]'/>
+      </div>
+
+  */

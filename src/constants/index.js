@@ -18,10 +18,19 @@ import {
     meta,
     starbucks,
     tesla,
+    jupyter,
+    python,
+    azure,
+    sql,
     vidi,
+    apotex,
+    heineken,
     shopify,
     carrent,
     prospeaker,
+    powerco,
+    diabetesdata,
+    spacex,
     jobit,
     tripguide,
     hoobank,
@@ -46,19 +55,19 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Data Modelling",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Data Visualisation",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Business Insights",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "AI & Machine Learning",
       icon: creator,
     },
   ];
@@ -66,27 +75,27 @@ import {
   const technologies = [
     
     {
-      name: "JavaScript",
-      icon: javascript,
+      name: "Python",
+      icon: python,
     },
     
     {
-      name: "React JS",
-      icon: reactjs,
+      name: "jupyter",
+      icon: jupyter,
     },
     
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
+      name: "azure",
+      icon: azure,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
+      name: "docker",
+      icon: docker,
     },
    
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "sql",
+      icon: sql,
     },
     {
       name: "git",
@@ -96,44 +105,32 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "ViDi",
-      icon: vidi,
+      title: "Data Scientist",
+      company_name: "Apotex",
+      icon: apotex,
       iconBg: "#E6DEDD",
-      date: "Jan 2020 - April 2021",
+      date: "Sep 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Worked in a team to implement predictive maintenance approach using machine learning model with the use of anomaly detection algorithm to identify problems on machines before they lead to breakdowns and effectively plan maintenance, thereby optimizing maintenance task, improving machine uptime, and reducing cost of maintenance.",
+        "Advanced analysis: Mining and analyzing data to build and improve analytics.",
+        "Data science experimentation and testing: Data wrangling, data visualization, feature engineering, model selection, tuning, and maintenance/enhancement.",
+        "Communicating project risks, learnings, and outcomes with technical and business stakeholders.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "ViDi",
-      icon: vidi,
+      title: "Data Scientist | Automation Engineer |",
+      company_name: "Heineken",
+      icon: heineken,
       iconBg: "#E6DEDD",
-      date: "April 2021 - Jan 2023",
+      date: "September 2020 - September 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Data Collection and Analysis: Efficiently collected and compiled data from different breweries and Customer Relation Officers to generate comprehensive progress reports. This involved meticulous organisation and analysis of data to ensure accurate and valuable insights for decision-making.",
+        "Dashboard Design and Visualisation: Designed interactive dashboards using Power BI, providing real-time monitoring of project progress. These visually engaging dashboards improved efficiency in project evaluation and facilitated data-driven decision-making for the business hub.",
+        "Used system metrics to develop several data models to improve maintenance & energy consumption to support data driven decision making.",
+        "Mass Migration of platforms to Cloud: Successfully led the mass migration of offline platforms for data capturing to cloud-based systems in collaboration with the IT team through strategic planning and analysis. This transformation reduced physical interactions and manual collation of data by 40%, enhancing overall operational efficiency and safety of the breweries.",
       ],
     },
-    {
-      title: "Full stack Developer",
-      company_name: "ViDi",
-      icon: vidi,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers",
-      ],
-    },
+    
   ];
   
   const testimonials = [
@@ -165,68 +162,73 @@ import {
   
   const projects = [
     {
-      name: "eCommerce",
+      name: "PowerCompany",
       description:
-        "Web-based ecommerce platform that allows users to search and buy the lastest headphones. This platform is integrated with Stripe checkout for easy payment.",
+        "A client PowerCo - a major gas and electricity utility company that supplies to small and medium sized enterprises is looking to determine the reason for customer churn and find ways to improve retention. They also want to determine if price sensitivity is a major factor for customer churn and if not to what extent does it influence churn. Click GitHub logo to view project.",
       tags: [
         {
-          name: "react",
+          name: "Python",
           color: "blue-text-gradient",
         },
         {
-          name: "NextJs",
+          name: "Classification Algorithm",
           color: "green-text-gradient",
         },
         {
-          name: "CSS",
+          name: "Feature Engineering",
           color: "pink-text-gradient",
         },
       ],
-      image: prospeaker,
-      source_code_link: "https://ecommerce-store-flax.vercel.app/",
+      image: powerco,
+      source_code_link: "https://github.com/Mannie297/PowerCompany/blob/main/powerco.ipynb" ,
     },
     {
-      name: "Work_Profile",
+      name: "Diabetes Model",
       description:
-        "3D Web application profile desinged with React, JavaScript, TailwindCSS",
+        "The data consists of diagnostic information about some patients who have been tested for diabetes. The final column in the dataset (Diabetic) contains the value 0 for patients who tested negative for diabetes, and 1 for patients who tested positive. This is the label that the model will be trained to predict. Most of the other columns (Pregnancies, PlasmaGlucose, DiastolicBloodPressure, and so on) are the features that will be used to predict the Diabetic label. Click GitHub logo to view project",
       tags: [
         {
-          name: "react",
+          name: "Python",
           color: "blue-text-gradient",
         },
         {
-          name: "JavaScript",
+          name: "EDA",
           color: "green-text-gradient",
         },
         {
-          name: "TailwindCS",
+          name: "Multi classification",
           color: "pink-text-gradient",
         },
       ],
-      image: profile,
-      source_code_link: "https://github.com/",
+      image: diabetesdata,
+      source_code_link: "https://github.com/Mannie297/DiabetesPrediction/blob/main/diabetes_prediction.ipynb",
     },
     {
-      name: "Hoobank",
+      name: "IBM DataScience Project",
       description:
-        "A banking platform  project to showcase next generation payment methods.",
+        "Space X advertises Falcon 9 rocket launches on its website with a cost of 62 million dollars; other providers cost upward of 165 million dollars each, much of the savings is because Space X can reuse the first stage. Therefore, if we can determine if the first stage will land, we can determine the cost of a launch. This information can be used if an alternate company wants to bid against space X for a rocket launch. This report shows the methodology, exploratory data analysis and predictive models used to determine if a launch will be successful or not.",
       tags: [
         {
-          name: "React",
+          name: "Python",
           color: "blue-text-gradient",
         },
         {
-          name: "JavaScript",
+          name: "SQL",
           color: "green-text-gradient",
         },
         {
-          name: "Tailwind",
+          name: "API",
           color: "pink-text-gradient",
         },
+        {
+          name: "DASH",
+          color: "green-text-gradient",
+        },
       ],
-      image: hoobank,
-      source_code_link: "https://github.com/",
+      image: spacex,
+      source_code_link: "https://github.com/Mannie297/DataScience_Capstone_Project_Final",
     },
+    
   ];
   
   export { services, technologies, experiences, testimonials, projects };

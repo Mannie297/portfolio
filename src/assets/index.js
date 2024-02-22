@@ -27,9 +27,20 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import vidi from "./company/vidi.png";
+import apotex from "./company/apotex.png";
+import heineken from "./company/heineken.png";
+
+import python from "./tech/python.png"
+import jupyter from "./tech/jupyter.png"
+import azure from "./tech/azure.png"
+import sql from "./tech/sql.png"
 
 import carrent from "./carrent.png";
 import prospeaker from "./prospeaker.png";
+import powerco from "./powerco.png";
+import spacex from "./spacex.png";
+import diabetesdata from "./diabetesdata.png"
+import bannerpic from "./bannerpic.png"
 import jobit from "./jobit.png";
 import hoobank from "./hoobank.png";
 import profile from "./profile.png";
@@ -55,6 +66,10 @@ export {
   mongodb,
   nodejs,
   reactjs,
+  python,
+  jupyter,
+  azure,
+  sql,
   redux,
   tailwind,
   typescript,
@@ -64,8 +79,14 @@ export {
   starbucks,
   tesla,
   vidi,
+  apotex,
+  heineken,
   carrent,
   prospeaker,
+  powerco,
+  diabetesdata,
+  bannerpic,
+  spacex,
   jobit,
   hoobank,
   heropictwo,
