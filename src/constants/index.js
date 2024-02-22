@@ -55,7 +55,7 @@ import {
   
   const services = [
     {
-      title: "Data Modelling",
+      title: "Data Modeling",
       icon: web,
     },
     {
