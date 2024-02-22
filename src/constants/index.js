@@ -29,7 +29,7 @@ import {
     carrent,
     prospeaker,
     powerco,
-    diabetesdata,
+    diabetesdata2,
     spacey,
     jobit,
     tripguide,
@@ -200,7 +200,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: diabetesdata,
+      image: diabetesdata2,
       source_code_link: "https://github.com/Mannie297/DiabetesPrediction/blob/main/diabetes_prediction.ipynb",
     },
     {
