@@ -30,7 +30,7 @@ import {
     prospeaker,
     powerco,
     diabetesdata,
-    spacex,
+    spacey,
     jobit,
     tripguide,
     hoobank,
@@ -225,7 +225,7 @@ import {
           color: "green-text-gradient",
         },
       ],
-      image: spacex,
+      image: spacey,
       source_code_link: "https://github.com/Mannie297/DataScience_Capstone_Project_Final",
     },
     
