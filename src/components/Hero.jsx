@@ -32,10 +32,18 @@ const Hero = () => {
 
         </div>
 
-      </div>              
+      </div>  
+      
+      <div className='relative 2xl:w-full h-[130%] hidden sm:flex flex-1 justify-end items-center'>
+        <ComputersCanvas/>        
+      </div>  
+
+      <div className='absolute Xs:bottom-10 bottom-40 xs:hidden flex justify-center items-center'>
+        <img src={bannerpic2} alt='billing' className='w-50 h-full relative z-[5]'/>
+      </div>          
 
       
-      <div className='absolute xs:bottom-30 bottom-72 w-full
+      <div className='absolute xs:bottom-5 bottom-5 w-full
       flex justify-center items-center'>
         <a href='#about'>
           <div className='w-[35px] h-[64px] rounded-3xl 
