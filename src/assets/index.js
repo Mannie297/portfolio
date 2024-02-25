@@ -38,6 +38,7 @@ import sql from "./tech/sql.png"
 import carrent from "./carrent.png";
 import prospeaker from "./prospeaker.png";
 import powerco from "./powerco.png";
+import ba from "./ba.png";
 import spacey from "./spacey.png";
 import diabetesdata2 from "./diabetesdata2.png"
 import bannerpic2 from "./bannerpic2.png"
@@ -84,6 +85,7 @@ export {
   carrent,
   prospeaker,
   powerco,
+  ba,
   diabetesdata2,
   bannerpic2,
   spacey,

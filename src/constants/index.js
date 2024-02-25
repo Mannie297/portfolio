@@ -25,6 +25,7 @@ import {
     vidi,
     apotex,
     heineken,
+    ba,
     shopify,
     carrent,
     prospeaker,
@@ -227,6 +228,31 @@ import {
       ],
       image: spacey,
       source_code_link: "https://github.com/Mannie297/DataScience_Capstone_Project_Final",
+    },
+    {
+      name: "British Airways Review",
+      description:
+        "Customers who book a flight with BA will experience many interaction points with the BA brand. Understanding a customer's feelings, needs, and feedback is crucial for any business, including BA. This project is focused on scraping and collecting customer feedback and reviewing data from a third-party source and analysing this data to present meaningful insights.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "NLP",
+          color: "green-text-gradient",
+        },
+        {
+          name: "NLTK",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Beautiful Soup",
+          color: "green-text-gradient",
+        },
+      ],
+      image: ba,
+      source_code_link: "https://github.com/Mannie297/BritishAirways/blob/main/ba_sentiment_analysis.ipynb",
     },
     
   ];

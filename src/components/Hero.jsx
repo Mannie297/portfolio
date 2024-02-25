@@ -35,7 +35,7 @@ const Hero = () => {
       </div>              
 
       
-      <div className='absolute xs:bottom-30 bottom-32 w-full
+      <div className='absolute xs:bottom-30 bottom-72 w-full
       flex justify-center items-center'>
         <a href='#about'>
           <div className='w-[35px] h-[64px] rounded-3xl 
