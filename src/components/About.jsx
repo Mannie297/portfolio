@@ -53,7 +53,7 @@ const About = () => {
         className='mt-4 text-secondary text-[17px] max-w-3xl
         leading-[30px]'
       >
-        Results-oriented Data Scientist with over 5 years of experience with a strong foundation in machine learning, 
+        Results-oriented Data Scientist with over 4 years of experience with a strong foundation in machine learning, 
         statistics, and programming. Proficient in Python, R, and Java, showcasing expertise in utilising powerful 
         libraries including pandas, scikit-learn, TensorFlow, and Pytorch.Experienced in conducting in-depth research, 
         developing, experimenting, and deploying advanced analytical models in diverse data science projects. Adept at 
