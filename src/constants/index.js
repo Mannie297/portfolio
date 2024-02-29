@@ -205,44 +205,32 @@ import {
       image: diabetesdata2,
       source_code_link: "https://github.com/Mannie297/DiabetesPrediction/blob/main/diabetes_prediction.ipynb",
     },
+    
     {
-      name: "Diabetes Prediction App",
+      name: "IBM DataScience Project",
       description:
-        "This app predicts the likelihood of a patient having Diabetes based on several input features before been subjected to an actual test if the likelihood is high! Input Features: 'Pregnancies', 'PlasmaGlucose', 'DiastolicBloodPressure', 'TricepsThickness', 'SerumInsulin', 'BMI', 'DiabetesPedigree', 'Age' are used for model prediction. App is further deployed on Heroku as a web hosting platform for real time inferencing.",
+        "Space X advertises Falcon 9 rocket launches on its website with a cost of 62 million dollars; other providers cost upward of 165 million dollars each, much of the savings is because Space X can reuse the first stage. Therefore, if we can determine if the first stage will land, we can determine the cost of a launch. This information can be used if an alternate company wants to bid against space X for a rocket launch. This report shows the methodology, exploratory data analysis and predictive models used to determine if a launch will be successful or not.",
       tags: [
         {
           name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "SQL",
           color: "green-text-gradient",
         },
         {
-          name: "Streamlit",
+          name: "API",
           color: "pink-text-gradient",
         },
         {
-          name: "Pickle",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Heroku",
+          name: "DASH",
           color: "green-text-gradient",
-        },
-        {
-          name: "Data Visualisation",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Scikit-learn",
-          color: "pink-text-gradient",
-        },        
-        {
-          name: "Real-time Inferencing",
-          color: "blue-text-gradient",
         },
       ],
-      image: diabetesapp,
-      source_code_link: "https://diabetes-app-9cd0b6f4d021.herokuapp.com/",
+      image: spacey,
+      source_code_link: "https://github.com/Mannie297/DataScience_Capstone_Project_Final",
     },
-    
     {
       name: "British Airways Review",
       description:
