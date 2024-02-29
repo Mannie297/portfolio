@@ -227,7 +227,7 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "Data Visualization",
+          name: "Data Visualisation",
           color: "blue-text-gradient",
         },
         {
