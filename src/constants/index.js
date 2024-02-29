@@ -242,31 +242,7 @@ import {
       image: diabetesapp,
       source_code_link: "https://diabetes-app-9cd0b6f4d021.herokuapp.com/",
     },
-    {
-      name: "IBM DataScience Project",
-      description:
-        "Space X advertises Falcon 9 rocket launches on its website with a cost of 62 million dollars; other providers cost upward of 165 million dollars each, much of the savings is because Space X can reuse the first stage. Therefore, if we can determine if the first stage will land, we can determine the cost of a launch. This information can be used if an alternate company wants to bid against space X for a rocket launch. This report shows the methodology, exploratory data analysis and predictive models used to determine if a launch will be successful or not.",
-      tags: [
-        {
-          name: "Python",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "SQL",
-          color: "green-text-gradient",
-        },
-        {
-          name: "API",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "DASH",
-          color: "green-text-gradient",
-        },
-      ],
-      image: spacey,
-      source_code_link: "https://github.com/Mannie297/DataScience_Capstone_Project_Final",
-    },
+    
     {
       name: "British Airways Review",
       description:
