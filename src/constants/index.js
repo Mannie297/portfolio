@@ -31,6 +31,7 @@ import {
     prospeaker,
     powerco,
     diabetesdata2,
+    diabetesapp,
     spacey,
     jobit,
     tripguide,
@@ -203,6 +204,43 @@ import {
       ],
       image: diabetesdata2,
       source_code_link: "https://github.com/Mannie297/DiabetesPrediction/blob/main/diabetes_prediction.ipynb",
+    },
+    {
+      name: "Diabetes Prediction App",
+      description:
+        "This app predicts the likelihood of a patient having Diabetes based on several input features before been subjected to an actual test if the likelihood is high! Input Features: 'Pregnancies', 'PlasmaGlucose', 'DiastolicBloodPressure', 'TricepsThickness', 'SerumInsulin', 'BMI', 'DiabetesPedigree', 'Age' are used for model prediction. App is further deployed on Heroku as a web hosting platform for real time inferencing.",
+      tags: [
+        {
+          name: "Python",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Streamlit",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Pickle",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Heroku",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Data Visualization",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Scikit-learn",
+          color: "pink-text-gradient",
+        },        
+        {
+          name: "Real-time Inferencing",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: diabetesapp,
+      source_code_link: "https://diabetes-app-9cd0b6f4d021.herokuapp.com/",
     },
     {
       name: "IBM DataScience Project",

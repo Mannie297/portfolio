@@ -40,7 +40,8 @@ import prospeaker from "./prospeaker.png";
 import powerco from "./powerco.png";
 import ba from "./ba.png";
 import spacey from "./spacey.png";
-import diabetesdata2 from "./diabetesdata2.png"
+import diabetesdata2 from "./diabetesdata2.png";
+import diabetesapp from "./diabetesapp.png";
 import bannerpic2 from "./bannerpic2.png"
 import jobit from "./jobit.png";
 import hoobank from "./hoobank.png";
@@ -70,6 +71,7 @@ export {
   python,
   jupyter,
   azure,
+  diabetesapp,
   sql,
   redux,
   tailwind,
